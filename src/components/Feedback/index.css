@@ -1,0 +1,46 @@
+/* Write your CSS code here. */
+.bg-container {
+  background-image: linear-gradient(to right, #ffeeee, #ffc0bb);
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.displayNone {
+  background-color: #ffffff;
+  padding: 30px;
+  width: 90vh;
+  text-align: center;
+  border-radius: 10px;
+  font-family: Roboto;
+  display: none;
+}
+
+.displayVisible {
+  background-color: #ffffff;
+  padding: 30px;
+  width: 90vh;
+  text-align: center;
+  border-radius: 10px;
+  font-family: Roboto;
+}
+.emojisList {
+  padding: 50px;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+.emoji {
+  height: 80px;
+  width: 80px;
+}
+
+.thankyou-para {
+  color: #0f172a;
+}
+.feedback-para {
+  color: #1e293b;
+}
